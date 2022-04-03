@@ -1,2 +1,2 @@
 # bloggingsite
-a micro blogging site
+a micro blogging site using flask
