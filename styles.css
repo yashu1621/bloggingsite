@@ -1,0 +1,261 @@
+body {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/004/187/762/large/alena-aenami-7p-m-1k.jpg?1481159743);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #00fff2;
+}
+
+.nav-cont {
+  width: 90%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  box-shadow: 5px 5px 55px rgba(0, 168, 168, 0.473);
+  backdrop-filter: blur(15px) saturate(143%);
+  -webkit-backdrop-filter: blur(15px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0.51);
+  border: 0px solid rgba(255, 255, 255, 0.125);
+  border-top: 2px;
+}
+
+nav {
+  color: rgb(203, 219, 233);
+  text-align: left;
+  width: 100%;
+  padding: 12px;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 35px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:link {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+nav a:visited {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+nav a:hover {
+  font-size: 30px;
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  color: #00fff2;
+}
+
+nav ul li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--tertiary-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav ul li:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.form-cont {
+  width: 350px;
+  margin: auto;
+  backdrop-filter: blur(15px) saturate(143%);
+  -webkit-backdrop-filter: blur(15px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0.51);
+  border: 0px solid rgba(255, 255, 255, 0.125);
+  padding: 70px;
+  border-radius: 50px;
+}
+
+form {
+  padding: 25px;
+}
+
+form label {
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  padding: 20px 0px;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0px 10px solid;
+  border-bottom: 5px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.178);
+  border-top: 0px solid;
+  border-right: 0px solid;
+  border-left: 0px solid;
+  border-radius: 12px;
+}
+
+.button {
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border: solid 2px rgb(53, 53, 53);
+  background-color: rgb(41, 41, 41);
+  color: #ececec;
+  font-size: 25px;
+  border: 0px solid rgba(255, 255, 255, 0.125);
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #999;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+::placeholder {
+  color: #999;
+}
+
+.banner-cont {
+  margin: auto;
+  width: 550px;
+  color: rgb(0, 0, 0);
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner h1 {
+  color: #111;
+  font-size: 112px;
+  text-align: center;
+}
+
+blockquote {
+  width: 100%;
+}
+
+iframe {
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+.content-cont {
+  backdrop-filter: blur(15px) saturate(143%);
+  -webkit-backdrop-filter: blur(15px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0.719);
+  border: 0px solid rgba(255, 255, 255, 0.125);
+  color: #fff;
+  padding: 25px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+h4 a:link {
+  font-size: 15px;
+  color: #0dbbb2;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+h4 a:visited {
+  font-size: 15px;
+  color: #0dbbb2;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+h4 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.side-cont {
+  float: right;
+  margin-top: 250px;
+  margin-right: 20%;
+  backdrop-filter: blur(15px) saturate(143%);
+  -webkit-backdrop-filter: blur(15px) saturate(143%);
+  background-color: rgba(17, 25, 40, 0.61);
+  border: 0px solid rgba(255, 255, 255, 0.125);
+  color: #fff;
+  padding: 30px;
+  border-radius: 25px;
+  padding-right: 52px;
+}
+
+.side ul {
+  text-align: left;
+  list-style: none;
+}
+
+.side a:link {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.side a:visited {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.side a:hover {
+  color: #00fff2;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  color: rgb(214, 214, 214);
+  font-size: 15px;
+}
